@@ -1,0 +1,196 @@
+﻿@charset "UTF-8";
+
+/* default.css */
+
+/* ********************************
+
+Created: 2011/01/05
+Last Modified: 2011/01/05
+Editor(s): Sayaka Wakisaka
+Last Editor: Sayaka Wakisaka
+
+******************************** */
+
+/* index
+------------------------------
+
+	[1] Resets
+	[2] Font
+	[3] Font Size
+	[4] Position
+	[5] Link
+	[6] Space
+	[7] CSS Hack
+	[8] noscript
+
+------------------------------ */
+
+
+/* [1] Resets
+------------------------------ */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,blockquote,th,td{ margin: 0; padding: 0; }
+table{ border-collapse: collapse; border-spacing: 0;}
+a img,img { border: 0; vertical-align: bottom; line-height: 0;}
+li, ol li ul li { list-style: none; margin: 0;}
+ol li{
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin-bottom: 5px;
+	margin-left: 25px;
+}
+address,caption,cite,code,dfn,th,var{ font-style: normal; font-weight: normal; }
+strong,em{ font-style: normal; font-weight: bold; }
+caption,th{ text-align: left; }
+
+/* [2] Font
+------------------------------ */
+
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.8.0r4
+*/
+body{font:13px/1.231 verdana, "MS UI Gothic", "ヒラギノ角ゴ Pro W3", HiraKakuPro-W3, Osaka,"メイリオ", Meiryo, arial, sans-serif;*font-size:small;*font:x-small;}
+select,input,button,textarea,button{verdana, "MS UI Gothic", "ヒラギノ角ゴ Pro W3", HiraKakuPro-W3, Osaka,"メイリオ", Meiryo, arial, sans-serif;*font-size:small;*font:x-small;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+h1,h2,h3,h4,h5,h6,td,th{font-size:100%;}
+
+body{ color: #333; }
+
+/* [3] Font Size
+------------------------------ */
+
+.size26 { font-size:197%; }		/* 26px */
+.size25 { font-size:189%; }		/* 25px */
+.size24 { font-size:182%; }		/* 24px */
+.size23 { font-size:174%; }		/* 23px */
+.size22 { font-size:167%; }		/* 22px */
+.size21 { font-size:161.6%; }		/* 21px */
+.size20 { font-size:153.9%; }		/* 20px */
+.size19 { font-size:146.5%; }		/* 19px */
+.size18 { font-size:138.5%; }		/* 18px */
+.size17 { font-size:131%; }		/* 17px */
+.size16 { font-size:123.1%; }		/* 16px */
+.size15 { font-size:116%; }		/* 15px */
+.size14 { font-size:108%; }		/* 14px */
+.size13 { font-size:100%; }		/* 13px , default */
+.size12 { font-size:93%; }		/* 12px */
+.size11 { font-size:85%; }		/* 11px */
+.size10 { font-size:77%; }		/* 10px */
+
+/* line-height */
+.lh0 { line-height: 0; }
+.lh10 { line-height: 1; }
+.lh12 { line-height: 1.2; }
+.lh14 { line-height: 1.4; }
+.lh16 { line-height: 1.6; }
+.lh18 { line-height: 1.8; }
+.lh20 { line-height: 2; }
+.lh24 { line-height: 2.4; }
+
+/* [4] Position
+------------------------------ */
+
+.align-left { text-align:left; }
+.align-center { text-align:center; }
+.align-right { text-align:right; }
+.float-left { float:left; }
+.float-right { float:right; }
+.clear-both { clear: both; }
+.clear-left { clear: left; }
+.valign-top { vertical-align: top; }
+.valign-middle { vertical-align: middle; }
+.valign-bottom { vertical-align: bottom; }
+.img-left { float:left; margin-right: 20px; margin-bottom: 20px; }
+.img-right { float:right; margin-left: 20px; margin-bottom: 20px; }
+.vmiddle-acenter{
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+/* [5] Link
+------------------------------ */
+
+a:link,
+a:visited{
+	color: #005DAC;
+	background-color: transparent;
+}
+a:hover,
+a:active{
+	color: #007FEA;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* [6] Space
+------------------------------ */
+
+.top0 { margin-top: 0px !important; }
+.top5 { margin-top: 5px !important; }
+.top10 { margin-top: 10px !important; }
+.top15 { margin-top: 15px !important; }
+.top20 { margin-top: 20px !important; }
+.top30 { margin-top: 30px !important; }
+.top40 { margin-top: 40px !important; }
+.top50 { margin-top: 50px !important; margin-bottom: 15px!important; }
+.top80 { margin-top: 80px !important; margin-bottom: 15px!important; }
+
+.right0 { margin-right: 0px !important; }
+.right5 { margin-right: 5px !important; }
+.right10 { margin-right: 10px !important; }
+.right12 { margin-right: 12px !important; }
+.right15 { margin-right: 15px !important; }
+.right20 { margin-right: 20px !important; }
+
+.bottom0 { margin-bottom: 0px !important; }
+.bottom5 { margin-bottom: 5px !important; }
+.bottom10 { margin-bottom: 10px !important; }
+.bottom15 { margin-bottom: 15px !important; }
+.bottom20 { margin-bottom: 20px !important; }
+.bottom30 { margin-bottom: 30px !important; }
+.bottom80 { margin-bottom: 80px !important; }
+
+.left0 { margin-left: 0px !important; }
+.left5 { margin-left: 5px !important; }
+.left10 { margin-left: 10px !important; }
+.left15 { margin-left: 15px !important; }
+.left20 { margin-left: 20px !important; }
+.left50 { margin-left: 50px !important; }
+
+/* [7] CSS Hack
+------------------------------ */
+
+/* clearfix */
+.clearfix:after,ul:after,dl:after,
+.contentbg:after,#contents:after,#inner:after,#shortcut:after,.box span:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix,ul,dl,
+.contentbg,#contents,#inner,#shortcut,.box span {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix,* html ul,* html dl,
+* html .contentbg,* html #contents,* html #inner,* html #shortcut,* html .box span {height: 1%;}
+.clearfix,ul,dl,
+.contentbg,#contents,#inner,#shortcut,.box span {display: block;}
+/* End hide from IE-mac */
+
+
+/* [8] noscript
+------------------------------ */
+
+noscript{
+	clear: both;
+	color: red;
+	text-align: center;
+}

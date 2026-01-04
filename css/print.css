@@ -1,0 +1,177 @@
+﻿@charset "UTF-8";
+
+/* print.css */
+
+/* [0] 共通
+------------------------------ */
+
+body{ background: none; padding:0;}
+
+.logo,
+.g-navi,
+#footer ul,
+.pagetop,
+.previous{
+	display: none;
+}
+
+#side{
+	position: static !important;
+	width: auto;
+	height: auto;
+	padding: 0;
+	background: none;
+}
+
+#footer{
+	width: auto;
+	position: static;
+	text-align: right;
+}
+
+/* [0] 共通
+------------------------------ */
+
+body{
+	width: auto;
+	height: auto;
+	background: none !important;
+}
+
+/* [1] contents
+------------------------------ */
+#contents{
+	height: auto;
+	padding-bottom: 0;
+	margin-left: 0;
+}
+
+#inner{
+	width: 100%;
+	padding-top: 0;
+}
+/* [1] 阿波和三盆糖
+------------------------------ */
+
+/* 阿波和三盆糖 */
+.wasanbon{ background: none; }
+.wasanbon #contents{ background: none; }
+.box h2{ margin: 20px 0; }
+.wasanbon .box .kona,
+.wasanbon .box .higashi,
+.wasanbon .box .mitu,
+.wasanbon .box .arare{ margin: 0; }
+.wasanbon .box .kona,
+.wasanbon .box .higashi,
+.wasanbon .box .mitu,
+.wasanbon .box .arare{ background: none; }
+
+.wasanbon .box .kona,
+.wasanbon .box .mitu{ padding: 0; }
+.wasanbon .box .mitu{ padding: 0; }
+
+.wasanbon .box .higashi,
+.wasanbon .box .arare{
+	padding: 0;
+}
+
+.wasanbon ul.p-navi{	display: none; }
+
+.wasanbon dl{
+	float: none;
+	height: auto !important;
+	margin-right: 0;
+	width: auto;
+}
+
+.wasanbon dl dt{
+	margin: 0 0 10px 0;
+	text-align: left;
+}
+
+.wasanbon dl.last{
+	width: auto;
+	margin: 0;
+}
+
+/* 竹糖（ちくとう）とは */
+.chikutou #contents{ background: none; }
+
+/* 12月、砂糖黍の収穫 */
+.harvest #contents{ background: none; }
+
+/* [2] 生産地と歴史
+------------------------------ */
+.history #contents{ background: none; }
+
+/* [3] 製法
+------------------------------ */
+
+/* 背景は全頁共通 */
+.method #contents{ background: none; }
+ul.method-li{ display: none; }
+ul.method-li.index{ display: block; }
+
+/* [4] 阿波和三盆糖 名前の由来
+------------------------------ */
+.origin{	background: none; }
+.origin #contents{ background: none; }
+
+/* [5] 岡田製糖所に付いて
+------------------------------ */
+.about #contents{ background: none; }
+
+/* [] お取り寄せ
+------------------------------ */
+
+.shop #inner{ margin-bottom: 0; }
+
+/* [0] 訪問販売法表記、個人情報保護方針
+------------------------------ */
+.other #inner{
+	padding-top: 0;
+}
+
+
+/* [] 英語ページ
+------------------------------ */
+/* products */
+.product #contents{
+	background: url(/english/product/img/bg-product.jpg) 220px 0 repeat-x fixed;
+}
+* html .product #contents{ background-position: top left; }
+
+/* Use of wasanbon toh */
+.use #contents{
+	background: url(/english/use/img/bg-use.jpg) 220px 0 repeat-x fixed;
+}
+* html .product #contents{ background-position: top left; }
+
+.use dl{
+	float: none;
+	margin: 0px;
+	width: 610px;
+}
+
+.use dl dt{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+/* Method */
+ul.method-li-eng{ display: none; }
+ul.method-li-eng.index{ display: block; }
+
+.ingredient{ background: none; }
+
+#contents .list-typeA li{
+	padding-left: 0px;
+	padding-bottom: 0px;
+	background: none;
+	list-style: disc !important;
+}
+
+.box{
+	background: none;
+}

@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* CSS import For Print */
+
+/* For All --- Not Mac IE 5 ------------------------- \*/
+@import "/css/print.css";
+/* For All --- Not Mac IE 5 end --------------------- */

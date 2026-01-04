@@ -1,0 +1,491 @@
+﻿@charset "UTF-8";
+
+/* original.css */
+
+/* index
+------------------------------
+
+	[0] トップページ
+	[1] 阿波和三盆糖
+	------------------------------
+		├ 竹糖（ちくとう）とは
+		└ 12月、砂糖黍の収穫
+	[2] 生産地と歴史
+	[3] 製法
+	[4] 阿波和三盆糖 名前の由来
+	[5] 岡田製糖所に付いて
+
+------------------------------ */
+
+/* [0] トップページ
+------------------------------ */
+body.top #contents{
+	background: url(/img/bg-main.jpg) 220px 0 repeat-x;
+}
+
+body.top h1{
+	position: absolute;
+	top: 20px;
+	left: 65%;
+}
+
+body.top .eng h1{
+	top: 30px;
+	left: 50%;
+}
+
+body.top #inner{
+	clear: both;
+	padding-top: 15px;
+}
+
+body.top #inner .ushi{
+	float: left;
+}
+
+body.top #inner .link{
+	width: 275px;
+	float: right;
+}
+
+body.top #inner .link img{
+	margin-bottom: 10px;
+}
+
+/* [1] 阿波和三盆糖
+------------------------------ */
+
+/* 阿波和三盆糖 */
+.wasanbon{ background: #fefdf6 url(/wasanbon/img/bg-wasanbon2.jpg) 220px 0 repeat-x fixed; }
+.wasanbon #contents{
+	background: url(/wasanbon/img/bg-wasanbon.jpg) 220px 0 no-repeat fixed;
+}
+* html .wasanbon #contents{ background-position: top left; }
+
+#inner h1{
+	margin-bottom: 0;
+}
+
+.box h2{
+	margin-top: 30px;
+	margin-left: -20px;
+}
+
+.wasanbon .box .kona,
+.wasanbon .box .higashi,
+.wasanbon .box .mitu,
+.wasanbon .box .arare{
+	margin: 0 -41px;
+}
+
+.wasanbon #inner h3{
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	background: none;
+}
+
+.wasanbon .box .kona{ background: url(/wasanbon/img/img-wasanbon02-1.jpg) top left no-repeat; }
+.wasanbon .box .higashi{ background: url(/wasanbon/img/img-wasanbon02-2.jpg) top right no-repeat; }
+.wasanbon .box .mitu{ background: url(/wasanbon/img/img-wasanbon02-3.jpg) top left no-repeat; }
+.wasanbon .box .arare{ background: url(/wasanbon/img/img-wasanbon02-4.jpg) top right no-repeat; }
+
+.wasanbon .box .kona,
+.wasanbon .box .mitu{
+	padding: 20px 45px 20px 267px;
+}
+
+.wasanbon .box .mitu{ padding-bottom: 100px;}
+
+.wasanbon .box .higashi,
+.wasanbon .box .arare{
+	padding: 50px 280px 40px 45px;
+}
+
+.wasanbon #inner{
+	position: relative;
+}
+
+.wasanbon ul.p-navi{
+	position: absolute;
+	top: 430px;
+	left: 45px;
+}
+
+.wasanbon ul.p-navi li{ margin-bottom: 2px; }
+
+.wasanbon dl{
+	float: left;
+	margin-right: 30px;
+	width: 280px;
+}
+
+.wasanbon dl dt{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.wasanbon dl.last{
+	width: 610px;
+	margin: 0;
+}
+
+/* 竹糖（ちくとう）とは */
+.chikutou #contents{
+	background: url(/wasanbon/img/bg-chikutou.jpg) 220px 0 repeat-x fixed;
+}
+* html .chikutou #contents{ background-position: top left; }
+
+/* 12月、砂糖黍の収穫 */
+.harvest #contents{
+	background: url(/wasanbon/img/bg-harvest.jpg) 220px 0 repeat-x fixed;
+}
+* html .harvest #contents{ background-position: top left; }
+
+/* [2] 生産地と歴史
+------------------------------ */
+.history #contents{
+	background: url(/history/img/bg-history.jpg) 220px 0 repeat-x fixed;
+}
+* html .history #contents{ background-position: top left; }
+
+/* [3] 製法
+------------------------------ */
+
+/* 背景は全頁共通 */
+.method #contents{
+	background: url(/method/img/bg-method.jpg) 220px 0 repeat-x fixed;
+}
+* html .method #contents{ background-position: top left; }
+
+ul.method-li{ clear: both; padding-top: 50px; }
+ul.method-li li{
+	float: left;
+	display: inline;
+	padding-right: 6px;
+	background: url(/img/icon-arrow.gif) right center no-repeat;
+}
+
+/* [4] 阿波和三盆糖 名前の由来
+------------------------------ */
+.origin{	background: #fefdf6 url(/origin/img/bg-origin2.jpg) 220px 0 repeat-x fixed; }
+.origin #contents{
+	background: url(/origin/img/bg-origin.jpg) 220px 0 no-repeat fixed;
+}
+* html .origin #contents{ background-position: top left; }
+
+/* [5] 岡田製糖所に付いて
+------------------------------ */
+.about #contents{
+	background: url(/about/img/bg-about.jpg) 220px 0 repeat-x fixed;
+}
+* html .about #contents{ background-position: top left; }
+
+/* [] お取り寄せ
+------------------------------ */
+
+.shop #inner{
+	margin-bottom: 100px;
+	padding: 0;
+}
+.shop #inner h1{
+	margin: 40px 0;
+	text-align: center;
+}
+
+.shop .inner{
+	width: 540px;
+	margin: 20px auto 0 auto;
+}
+
+.shop .inner dl.fax{
+	float: right;
+	width: 220px;
+}
+
+.shop .inner dl.fax dt{
+	margin-bottom: 5px;
+}
+
+.shop .inner dl.fax dd{
+	font-size: 77%;
+}
+
+.shop .inner dl.fax address{
+	margin-top: 10px;
+}
+
+p.category-attention{
+	margin-top: 30px;
+	margin-bottom: 0!important;
+	text-align: center;
+}
+
+.shop .item{
+	clear: both;
+}
+
+.shop .item li{
+	float: left;
+	display: inline;
+	width: 230px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	background-color: #fff;
+}
+
+.shop .item .end{
+	margin-right: 0;
+}
+
+.shop .item dl{
+	padding: 10px;
+	border-left: #eeede6 solid 1px;
+	border-right: #eeede6 solid 1px;
+	border-bottom: #eeede6 solid 1px;
+}
+
+.shop .item dl dt{
+	font-weight: bold;
+}
+
+div.confirm{
+	margin-left: 110px;
+}
+
+* html div.confirm{
+	margin-left: 210px;
+}
+
+div.confirm ul{
+	position: fixed !important;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+div.confirm ul li{
+	margin: 0 auto;
+	padding: 16px 0;
+	width: 600px;
+	background: url(/shop/img/bg-confirm.png) 0 0 no-repeat;	
+	text-align: center;
+}
+
+.shop .order{
+	clear: both;
+	display: block;
+	margin-top: 5px;
+	padding: 5px;
+	background-color: #efefef;
+	text-align: right;
+}
+
+.order input{
+	padding-right:5px;
+	width: 30px;
+	text-align: right;
+}
+
+.subtotal{
+	float: right;
+	width: 300px;
+}
+
+/* フォームに使うclass
+------------------------------ */
+
+/*--- form reset ---*/
+input[type="text"] {
+	margin:3px 5px;
+	padding:2px 3px 0 3px !important;
+	height:25px;
+	vertical-align:middle;
+	color:#333;
+	margin: 2px 0;
+}
+
+*+html body input[type="text"] {/* IE7.x */
+	padding:5px 5px 0 5px !important;
+	height:22px;
+}
+
+input[type="text"] {/* IE8.x */
+	padding:5px 5px 0 5px\9 !important;
+	height:22px\9;
+}
+
+input[type="checkbox"] {
+	margin:0 3px 0 0;
+	vertical-align:middle;
+}
+
+input[type="radio"] {
+	margin:0 3px 0 0;
+	vertical-align:baseline;
+}
+
+select{
+	margin:3px 5px;
+	padding:2px;
+	vertical-align:middle;
+	color:#333;
+	font-size:1em;
+}
+
+textarea {
+	margin:3px 5px;
+	color:#333;
+}
+
+.btn-add{
+	float: left;
+	margin: 4px 0 0 10px;
+}
+
+/*--- 注意事項同意 ---*/
+
+/* 必須項目
+-----------未入力 */
+.required{ background-color: #ffcdc3; }
+.required em{ background: url(/shop/img/icon-required.png) top left no-repeat; }
+* html .required em{ background: url(/shop/img/icon-indispensable_ie6.png) top left no-repeat; }
+
+/* 必須項目
+-----------入力済み */
+.ok{ background-color: #ddebed; }
+.ok em{ background: url(/shop/img/icon-ok.png) top left no-repeat; }
+* html .ok em{ background: url(/shop/img/icon-ok_ie6.png) top left no-repeat; }
+
+/* 必須項目
+-----------未入力・入力済み共通 */
+.required em,
+.ok em{
+	display: inline-block;
+	margin: 0 7px;
+	width: 42px;
+	height: 24px;
+	vertical-align: middle;
+	text-indent: -9999px;
+	color: #FFF;
+}
+
+* html .required em,
+* html .ok em{
+	text-indent: 0px;
+	text-align: center;
+}
+
+table th.required em,
+table th.ok em{
+	float: right;
+}
+
+/* 注意書き */
+.attention{
+	background-color:	#efefef;
+	margin: 5px;
+	padding: 5px 10px;
+	font-size: 77%;
+}
+
+.btn-add li{
+	float: left;
+	margin-right: 5px;
+}
+
+
+/* 必須項目
+-----------エラー */
+.error{
+	border: solid 2px #ff4520;
+	margin: 0!important;
+}
+
+
+.errorMS{
+	display: none;
+	background: url(/shop/img/arrow-errorMS.png) 40px 0px no-repeat;
+	position: absolute;
+	padding-top: 5px;
+}
+
+.errorMS span{
+	display: block;
+	margin-left: 15px;
+	padding-bottom: 3px;
+	width: 297px;
+	background: url(/shop/img/bg-errorMS-footer.png) bottom left no-repeat;
+	font-size: 77%;
+	color: #fff;
+}
+
+.errorMS ul{
+	padding-top: 8px;
+	background: url(/shop/img/bg-errorMS.png) top left no-repeat;
+}
+
+.errorMS ul li{
+	padding: 5px 5px 5px 40px;
+}
+
+#affirmation_on, #affirmation_on_2,
+#zip-search_on, #loading {
+	display: none;
+}
+
+
+/* [0] 訪問販売法表記、個人情報保護方針
+------------------------------ */
+.other #inner{
+	padding-top: 80px;
+}
+
+
+/* [] 英語ページ
+------------------------------ */
+/* products */
+.product #contents{
+	background: url(/english/product/img/bg-product.jpg) 220px 0 repeat-x fixed;
+}
+* html .product #contents{ background-position: top left; }
+
+/* Use of wasanbon toh */
+.use #contents{
+	background: url(/english/use/img/bg-use.jpg) 220px 0 repeat-x fixed;
+}
+* html .use #contents{ background-position: top left; }
+
+.use dl{
+	float: none;
+	margin: 0px;
+	width: 610px;
+}
+
+.use dl dt{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+/* Product */
+/* Method */
+.wasanbon.eng h2,
+.method.eng h2{
+	margin-left: 0;
+}
+
+/* Method */
+ul.method-li-eng{ clear: both; padding-top: 50px; }
+ul.method-li-eng li{
+	padding-bottom: 6px;
+	background: url(/img/icon-arrow-bottom.gif) center bottom no-repeat;
+}
+
+.ingredient{
+	background: url(/english/ingredient/img/bg-ingredient.jpg) 220px 0 repeat-x fixed;
+}
+* html .ingredient #contents{ background-position: top left; }
+
+

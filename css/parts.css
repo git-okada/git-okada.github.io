@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+/* parts.css */
+
+/* index
+----------------------------
+
+	[1] edit内のパーツ
+	[2] list
+	[3] box
+	[4] font
+	[5] table
+	[6] width
+	[7] link
+	[8] mark
+	[9] other
+
+--------------------------- */
+
+
+/* [1] inner内のパーツ
+------------------------------ */
+
+#inner h2{
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#inner h3,
+.tit-typeA{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px 15px;
+	background: #b8a060 url(/img/bg-tit-typeA.gif) top left repeat;
+}
+
+.last{
+	margin: 0!important;
+	padding: 0!important;
+}
+
+
+/* [2] list
+------------------------------ */
+
+#contents .list-typeA{
+	margin-left: 20px;
+}
+
+#contents .list-typeA li{
+	padding-left: 20px;
+	padding-bottom: 5px;
+	background: url(/img/icon-typeA.gif) no-repeat left 0.5em;
+}
+
+.edit ol li ul{ padding-top: 15px; }
+
+ul.float-list li{
+	float: left;
+	display: inline;
+	white-space:nowrap
+} 
+
+/* ----- li-float ----- */
+.li-float li{
+	display: inline;
+	margin-right: 15px;
+}
+
+/* ----- ol ナンバリングをアルファベットに変更 ----- */
+ol.ol-alpha li{ list-style-type: lower-alpha; }
+
+/* ----- dl ----- */
+/* [横並び] typeA */
+dl.list-typeA{
+	margin-top: 5px;
+	margin-bottom: 15px;
+	line-height: 1.8;
+}
+
+dl.list-typeA dt{
+	clear: both;
+	float: left;
+	width: 8em;
+	font-weight: bold;
+}
+
+dl.list-typeA dd{
+	padding-left: 8.5em;
+}
+
+/* [4] font
+------------------------------ */
+.red { color: #FF0000; }
+.red-bold { color: #FF0000; font-weight: bold; }
+.blue { color: #038bc4; }
+.blue-bold { color: #038bc4; font-weight: bold; }
+.orange { color: #FD5300; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.normal { font-style: normal; }
+
+
+/* [3] box
+------------------------------ */
+.box{
+	clear: both;
+	margin-bottom: 20px;
+	padding: 20px 45px;
+	background: url(/img/bg-box.png) top left repeat-y;
+}
+
+.bg-top{
+	margin: 0!important;
+	padding: 20px 25px 0 25px;
+	background: url(/img/bg-box-top.png) top left no-repeat;
+}
+
+.box span{
+	display: block;
+	padding: 20px 45px;
+	background: url(/img/bg-box-end.png) bottom left no-repeat;
+}
+
+/* [5] table
+------------------------------ */
+table{
+	margin-bottom: 20px;
+	width: 100%;
+	border: none;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+table thead th{
+	background-color: #e0dac8;
+	border-bottom: 1px solid #bead85;
+}
+
+table th{
+	padding: 7px 10px;
+	border-right: none;
+	border-bottom: 1px solid #DDDDDD;
+	background-color: #F2F2F2;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+table td{
+	padding: 7px 10px;
+	border-right: none;
+	border-bottom: 1px solid #DDDDDD;
+	vertical-align: top;
+	background-color: #fff;
+}
+
+table tbody th,
+table tfoot th{
+	border-left: none;
+}
+
+table .bg-gold{
+	background-color: #e0dac8;
+	border-bottom: 1px solid #bead85;
+}
+
+/* [6] width
+------------------------------ */
+
+.w-5percent{ width: 5%; }
+.w-10percent{ width: 10%; }
+.w-15percent{ width: 15%; }
+.w-20percent{ width: 20%; }
+.w-25percent{ width: 25%; }
+.w-30percent{ width: 30%; }
+.w-35percent{ width: 35%; }
+.w-40percent{ width: 40%; }
+.w-45percent{ width: 45%; }
+.w-50percent{ width: 50%; }
+.w-60percent{ width: 60%; }
+.w-65percent{ width: 65%; }
+.w-70percent{ width: 70%; }
+
+.w-400px{ width: 400px; }
+.w-450px{ width: 450px; }
+
+
+
+/* [7] link
+------------------------------ */
+
+.link-bk a:link,
+.link-bk a:visited{
+	color: #555;
+	text-decoration: none;
+}
+
+.link-bk a:hover,
+.link-bk a:active{
+	color: #333;
+	text-decoration: none;
+}
+
+
+/* [8] mark
+------------------------------ */
+
+
+/* [9] other
+--------------------------- */
+
+.tab{
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.tab li{
+	float: left;
+	display: inline;
+}
+
+.tabPanel{
+	clear: both;
+}
+
+/* ----- none-style ----- */
+.none-style,
+ul.none-style li{
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+}
+
+/* ----- btn-center ----- */
+.btn-center{
+	clear: both;
+	padding: 15px 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.btn-center li{
+	margin-right: 15px;
+	display: inline;
+}
+
+.previous{
+	margin-top: 20px;
+	text-align: right;
+}

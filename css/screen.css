@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* CSS import */
+
+/* For All --- Not Mac IE 5 ------------------------- \*/
+@import "/css/default.css";
+@import "/css/layout.css";
+@import "/css/parts.css";
+@import "/css/original.css";
+/* For All --- Not Mac IE 5 end --------------------- */
